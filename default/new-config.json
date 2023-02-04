@@ -1,0 +1,552 @@
+{
+    "loadActions": [
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/index.html",
+            "path": "./default/index.html",
+            "key": "index"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./index.html",
+            "path": "index.html",
+            "key": "index"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/LICENSE",
+            "path": "./default/LICENSE",
+            "key": "license"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./LICENSE",
+            "path": "LICENSE",
+            "key": "license"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/Modding-tree-license",
+            "path": "./default/Modding-tree-license",
+            "key": "moddingLicense"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./Modding-tree-license",
+            "path": "Modding-tree-license",
+            "key": "moddingLicense"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/Prestige-tree-license",
+            "path": "./default/Prestige-tree-license",
+            "key": "prestigeLicense"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./Prestige-tree-license",
+            "path": "Prestige-tree-license",
+            "key": "prestigeLicense"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/README.md",
+            "path": "./default/README.md",
+            "key": "readme"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./README.md",
+            "path": "README.md",
+            "key": "readme"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/changelog.md",
+            "path": "./default/changelog.md",
+            "key": "changelog"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./changelog.md",
+            "path": "changelog.md",
+            "key": "changelog"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/remove.png",
+            "path": "./default/remove.png",
+            "key": "remove"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./remove.png",
+            "path": "remove.png",
+            "key": "remove"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/discord.png",
+            "path": "./default/discord.png",
+            "key": "discord"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./discord.png",
+            "path": "discord.png",
+            "key": "discord"
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/options_wheel.png",
+            "path": "./default/options_wheel.png",
+            "key": "optionsWheel"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./options_wheel.png",
+            "path": "options_wheel.png",
+            "key": "optionsWheel"
+        },
+
+        {
+            "action": "createDirectory",
+            "state": "Creating ./css/",
+            "path": "css",
+            "actions": [
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/bars.css",
+                    "path": "./default/css/bars.css",
+                    "key": "bars"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/bars.css",
+                    "path": "bars.css",
+                    "key": "bars"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/components.css",
+                    "path": "./default/css/components.css",
+                    "key": "components"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/components.css",
+                    "path": "components.css",
+                    "key": "components"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/general-style.css",
+                    "path": "./default/css/general-style.css",
+                    "key": "generalStyle"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/general-style.css",
+                    "path": "general-style.css",
+                    "key": "generalStyle"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/misc.css",
+                    "path": "./default/css/misc.css",
+                    "key": "misc"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/misc.css",
+                    "path": "misc.css",
+                    "key": "misc"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/other-tabs.css",
+                    "path": "./default/css/other-tabs.css",
+                    "key": "otherTabs"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/other-tabs.css",
+                    "path": "other-tabs.css",
+                    "key": "otherTabs"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/other-tabs.css",
+                    "path": "./default/css/other-tabs.css",
+                    "key": "otherTabs"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/other-tabs.css",
+                    "path": "other-tabs.css",
+                    "key": "otherTabs"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/popup.css",
+                    "path": "./default/css/popup.css",
+                    "key": "popup"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/popup.css",
+                    "path": "popup.css",
+                    "key": "popup"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/system-style.css",
+                    "path": "./default/css/system-style.css",
+                    "key": "systemStyle"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/system-style.css",
+                    "path": "system-style.css",
+                    "key": "systemStyle"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/css/tree-node.css",
+                    "path": "./default/css/tree-node.css",
+                    "key": "treeNode"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./css/tree-node.css",
+                    "path": "tree-node.css",
+                    "key": "treeNode"
+                }
+            ]
+        },
+
+        {
+            "action": "createDirectory",
+            "state": "Creating ./resources/",
+            "path": "resources",
+            "actions": [
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/resources/genericParticle.png",
+                    "path": "./default/resources/genericParticle.png",
+                    "key": "genericParticle"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./resources/genericParticle.png",
+                    "path": "genericParticle.png",
+                    "key": "genericParticle"
+                }
+            ]
+        },
+
+        {
+            "action": "createDirectory",
+            "state": "Creating ./js/",
+            "path": "js",
+            "actions": [
+                {
+                    "action": "createDirectory",
+                    "state": "Creating ./js/technical/",
+                    "path": "technical",
+                    "actions": [
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/break_eternity.js",
+                            "path": "./default/js/technical/break_eternity.js",
+                            "key": "decimal"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/break_eternity.js",
+                            "path": "break_eternity.js",
+                            "key": "decimal"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/canvas.js",
+                            "path": "./default/js/technical/canvas.js",
+                            "key": "canvas"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/canvas.js",
+                            "path": "canvas.js",
+                            "key": "canvas"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/displays.js",
+                            "path": "./default/js/technical/displays.js",
+                            "key": "displays"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/displays.js",
+                            "path": "displays.js",
+                            "key": "displays"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/layerSupport.js",
+                            "path": "./default/js/technical/layerSupport.js",
+                            "key": "layerSupport"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/layerSupport.js",
+                            "path": "layerSupport.js",
+                            "key": "layerSupport"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/loader.js",
+                            "path": "./default/js/technical/loader.js",
+                            "key": "loader"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/loader.js",
+                            "path": "loader.js",
+                            "key": "loader"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/particleSystem.js",
+                            "path": "./default/js/technical/particleSystem.js",
+                            "key": "particleSystem"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/particleSystem.js",
+                            "path": "particleSystem.js",
+                            "key": "particleSystem"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/systemComponents.js",
+                            "path": "./default/js/technical/systemComponents.js",
+                            "key": "systemComponents"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/systemComponents.js",
+                            "path": "systemComponents.js",
+                            "key": "systemComponents"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/technical/temp.js",
+                            "path": "./default/js/technical/temp.js",
+                            "key": "temp"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/technical/temp.js",
+                            "path": "temp.js",
+                            "key": "temp"
+                        }
+                    ]
+                },
+
+                {
+                    "action": "createDirectory",
+                    "state": "Creating ./js/utils/",
+                    "path": "utils",
+                    "actions": [
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/utils/NumberFormating.js",
+                            "path": "./default/js/utils/NumberFormating.js",
+                            "key": "formating"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/utils/NumberFormating.js",
+                            "path": "NumberFormating.js",
+                            "key": "formating"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/utils/easyAccess.js",
+                            "path": "./default/js/utils/easyAccess.js",
+                            "key": "easyAccess"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/utils/easyAccess.js",
+                            "path": "easyAccess.js",
+                            "key": "easyAccess"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/utils/options.js",
+                            "path": "./default/js/utils/options.js",
+                            "key": "options"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/utils/options.js",
+                            "path": "options.js",
+                            "key": "options"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/utils/save.js",
+                            "path": "./default/js/utils/save.js",
+                            "key": "save"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/utils/save.js",
+                            "path": "save.js",
+                            "key": "save"
+                        },
+
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/utils/themes.js",
+                            "path": "./default/js/utils/themes.js",
+                            "key": "themes"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/utils/themes.js",
+                            "path": "themes.js",
+                            "key": "themes"
+                        }
+                    ]
+                },
+
+                {
+                    "action": "createDirectory",
+                    "state": "Creating ./js/layers/",
+                    "path": "layers",
+                    "actions": [
+                        {
+                            "action": "getFileForTemp",
+                            "state": "Getting ./default/js/layers/prestige.js",
+                            "path": "./default/js/layers/prestige.js",
+                            "key": "prestige"
+                        },
+                        {
+                            "action": "createFileFromTemp",
+                            "state": "Creating ./js/layers/prestige.js",
+                            "path": "prestige.js",
+                            "key": "prestige"
+                        }
+                    ]
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/js/components.js",
+                    "path": "./default/js/components.js",
+                    "key": "componentsJS"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./js/components.js",
+                    "path": "components.js",
+                    "key": "componentsJS"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/js/game.js",
+                    "path": "./default/js/game.js",
+                    "key": "game"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./js/game.js",
+                    "path": "game.js",
+                    "key": "game"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/js/mod.js",
+                    "path": "./default/js/mod.js",
+                    "key": "mod"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./js/mod.js",
+                    "path": "mod.js",
+                    "key": "mod"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/js/tree.js",
+                    "path": "./default/js/tree.js",
+                    "key": "tree"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./js/tree.js",
+                    "path": "tree.js",
+                    "key": "tree"
+                },
+
+                {
+                    "action": "getFileForTemp",
+                    "state": "Getting ./default/js/utils.js",
+                    "path": "./default/js/utils.js",
+                    "key": "utils"
+                },
+                {
+                    "action": "createFileFromTemp",
+                    "state": "Creating ./js/utils.js",
+                    "path": "utils.js",
+                    "key": "utils"
+                }
+            ]
+        },
+
+        {
+            "action": "getFileForTemp",
+            "state": "Getting ./default/existing-config.json",
+            "path": "./default/existing-config.json",
+            "key": "makerConfig"
+        },
+        {
+            "action": "createFileFromTemp",
+            "state": "Creating ./tmt-maker_config.json",
+            "path": "tmt-maker_config.json",
+            "key": "makerConfig"
+        }
+    ]
+}

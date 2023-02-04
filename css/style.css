@@ -5,5 +5,10 @@
     --dark-30: #303030;
     --dark-37: #373737;
 
+    --text-color: #afafaf;
+    --text-dark: #8f8f8f;
+    --link-color: rgb(88, 158, 185);
+    --link-used: rgb(88, 98, 185);
+
     --loadingBarColor: maroon;
 }

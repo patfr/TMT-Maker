@@ -17,7 +17,7 @@ async function askForUpload() {
 
     try {
         const file = await handle.getFileHandle('tmt-maker_config.json', {create:false});
-        data.config = await file.text();
+        data.config = await JSON.parse(await(await file.getFile()).text());
     } catch (error) {
         data.new = true;
         data.config = "";
