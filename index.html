@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMT-Maker Upload</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/upload.css">
+    <link rel="stylesheet" href="css/loading.css">
+
+    <script src="src/utils/utils.js" defer></script>
+    <script src="src/utils/loading.js" defer></script>
+    <script src="src/main.js" defer></script>
+</head>
+<body>
+    <div id="uploadSection" class="section">
+        <div id="uploadGrid" class="sectionGrid">
+            <h2>Welcome to TMT-Maker</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat nemo veniam consequuntur. Ab neque natus accusantium dolorem porro, inventore veritatis rerum autem optio possimus aliquam quisquam cupiditate blanditiis incidunt minus.
+            </p>
+            <button id="upload" onclick="askForUpload()">Upload folder</button>
+        </div>
+    </div>
+    <div id="loadingSection" class="section">
+        <div id="loadingGrid" class="sectionGrid">
+            <h2>Loading</h2>
+            <div></div>
+            <div id="loadingBar">
+                <div id="loadingFill">0%</div>
+            </div>
+            <div></div>
+            <p id="loadingState">
+                Idle
+            </p>
+        </div>
+    </div>
+    <div id="editorSection">
+
+    </div>
+</body>
+</html>

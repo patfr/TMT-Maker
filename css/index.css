@@ -1,0 +1,26 @@
+body {
+    background: #171717;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sectionGrid {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    padding: 25px;
+    background: #202020;
+    border: 2px solid #272727;
+    border-radius: 4px;
+    justify-items: center;
+}
+
+#loadingSection, #editorSection {
+    display: none;
+}

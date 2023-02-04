@@ -1,0 +1,8 @@
+{
+    "load": [
+        {
+            "type": "createDefaultFile",
+            "path": "./default/index.html"
+        }
+    ]
+}
