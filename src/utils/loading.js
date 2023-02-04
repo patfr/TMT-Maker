@@ -1,7 +1,8 @@
 const loadingBar = document.getElementById('loadingFill');
 const loadingState = document.getElementById('loadingState');
 const temp = {};
-const loadWait = 100;
+const loadWait = 50;
+const loadWaitOffset = 25;
 const afterLoadTime = 1000;
 
 function load(data) {
@@ -29,7 +30,7 @@ async function loadNew(data) {
     for (let i = 0; i < loadActions.length; i++) {
         setLoadingBar((i + 1) / total);
         await loadAction(data.directory, data, loadActions[i]);
-        await wait(loadWait);
+        await wait(getWaitTime());
     }
 
     await wait(afterLoadTime);
@@ -51,7 +52,7 @@ async function loadExisting(data) {
     for (let i = 0; i < loadActions.length; i++) {
         setLoadingBar((i + 1) / total);
         await loadAction(data.directory, data, loadActions[i]);
-        await wait(loadWait);
+        await wait(getWaitTime());
     }
 
     await wait(afterLoadTime);
@@ -85,7 +86,7 @@ async function loadAction(directory, data, action) {
 
             for (let i = 0; i < loadActions.length; i++) {
                 await loadAction(directoryHandle, data, loadActions[i]);
-                await wait(loadWait);
+                await wait(getWaitTime());
             }
             break;
 
@@ -103,4 +104,8 @@ function setLoadingBar(percentage) {
 
 function setLoadingBarState(state) {
     loadingState.innerHTML = state;
+}
+
+function getWaitTime() {
+    return loadWait + (Math.floor(Math.random() * (loadWaitOffset * 2 + 1)) - loadWaitOffset);
 }
